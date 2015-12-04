@@ -1,9 +1,16 @@
 Planning
-Achat de jeton
-Fidélité
-Streaming
-Boite à idées
-Compétition
-Dons
-Historique séance
-Mon compte
+ANIMATEUR Planifier une séance L’animateur planifie une séance et attend la réponse des membres pratiquant
+ANIMATEUR Valider une séance L’animateur valide la séance
+
+
+
+Compétition 
+
+ANIMATEUR Créer une compétition ’animateur peut créer une compétition
+ANIMATEUR Mettre à jour les scores L’animateur peut mettre à jour les scores
+ANIMATEUR Clore une compétition L’animateur peut clore une compétition
+
+PAGE PRINCIPALE
+Rajouter bannière de dons
+Rajouter le choix du type de compte(animateur, membre, internaute)
+

@@ -2,10 +2,15 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Compétition</title>
+        <title>Streaming</title>
 	<link href="index.css" rel="stylesheet" media="screen" type="text/css" />
     </head>
-
+ <script type="text/javascript">
+    function nonStreaming() {
+        alert("La séance n'est plus en cours");
+    }
+    
+    </script>
     <body> 
     <navbar id="menu">
         PBA - 
@@ -14,29 +19,17 @@
         <a href="fidelite.html">Fidélité</a>
         <a href="streaming.html">Streaming</a>
         <a href="boiteAIdees.html">Boite à idées</a>
-            <a href="evenements.html">Evénements</a>
+        <a href="evenements.html">Evénements</a>
         <a href="competition.html">Compétition</a>
         <a href="dons.html">Dons</a>
         <a href="historiqueSeance.html">Historique des séances</a>
         <a href="monCompte.html">Mon compte</a>
     </navbar>
-      <h1>Compétition</h1>
-      
-      <h2>Classement de la compétition acutelle (top 5)</h2>
-      <a href="selfClassement.html">Voir votre classement</a>
-      
-      <table>
-      <thead>
-        <tr><td>Nom</td><td>Score</td></tr>
-      </thead>
-      <tbody>
-        <tr><td>1</td><td>Bob</td><td>800</td></tr>
-        <tr><td>2</td><td>Pierre</td><td>650</td></tr>
-        <tr><td>3</td><td>Paul</td><td>620</td></tr>
-        <tr><td>4</td><td>Jacques</td><td>500</td></tr>
-        <tr><td>5</td><td>Alice</td><td>400</td></tr>
-      
-      </tbody>
-      
+      <h1>Streaming</h1>
+    <a href="diffuserSeance.html" > <h2>Diffuser la séance</h2></a>
+	<h2>Vidéo en cours</h2>
+		<a href="videoEnCours.html">Séance de Bob</a>
+		<a href="javascript:nonStreaming();">Séance d'Iris</a>
+		<a href="videoEnCours.html">Séance de Laure</a>
     </body>
 </html>
