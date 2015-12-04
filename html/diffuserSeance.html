@@ -2,10 +2,15 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Boite à idées</title>
+        <title>Streaming</title>
 	<link href="index.css" rel="stylesheet" media="screen" type="text/css" />
     </head>
-
+ <script type="text/javascript">
+    function nonStreaming() {
+        alert("La séance n'est plus en cours");
+    }
+    
+    </script>
     <body> 
     <navbar id="menu">
         PBA - 
@@ -20,21 +25,10 @@
         <a href="historiqueSeance.html">Historique des séances</a>
         <a href="monCompte.html">Mon compte</a>
     </navbar>
-      <h1>Boite à idées</h1>
-      
-      <a href="form/creerIdee.html">Proposer une idée</a>
-      <div id="idees">
-        <div class="idee">
-            <p>Parcours</p>
-            <p>Je vous suggère de proposer des parcours au participants</p>
-			<p>Anne Onyme</p>
-        </div>
-        
-        <div class="idee">
-            <p>Forum</p>
-            <p>Serait-il possible d'ajouter un forum sur le site</p>
-			<p>Alain Onyme</p>
-        </div>
-      </div>
+      <h1>Diffuser une séance</h1>
+	  Nom : <input type="text"/>
+        Input: <input type="text"/>
+        <input type="submit"/>
+		
     </body>
 </html>

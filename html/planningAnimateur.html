@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Planning</title>
+	<link href="index.css" rel="stylesheet" media="screen" type="text/css" />
+    </head>
+
+    <body> 
+  <navbar id="menu">
+        PBA - 
+        <a href="planningAnimateur.html">Planning</a>
+        <a href="streamingAnimateur.html">Streaming</a>
+        <a href="boiteAIdeesAnimateur.html">Boite à idées</a>
+        <a href="evenementsAnimateur.html">Evénements</a>
+        <a href="competitionAnimateur.html">Compétition</a>
+        <a href="donsAnimateur.html">Dons</a>
+        <a href="monCompteAnimateur.html">Mon compte</a>
+    </navbar>
+    <h1>Planning</h1>
+    
+    <h2>Prochaines séances</h2>
+    <table>  
+    <tbody>
+    <tr><td>08/01/2016</td><td><a href="inscriptionSeance.html">S'inscrire</a></td></tr>
+    <tr><td>15/01/2016</td><td><a href="inscriptionSeance.html">S'inscrire</a></td></tr>
+    <tr><td>22/01/2016</td><td><a href="inscriptionSeance.html">S'inscrire</a></td></tr>
+    </tbody>
+    </table>
+    
+    <h2>Prochaines séances potentielles (veuillez indiquer si vous êtes interressés)</h2>
+    <table>
+    <thead>
+    <tr><td>29/01/2016</td><td><a href="javascript:confirm();">Confirmer</a></td><td><a href="javascript:cancel();">Annuler</a></td></tr>
+    <tr><td>05/02/2016</td><td><a href="javascript:confirm();">Confirmer</a></td><td><a href="javascript:cancel();">Annuler</a></td></tr>
+    </body>
+    <a href="plannifierSeance.html">Plannifier une nouvelle séance</a>
+    <script type="text/javascript">
+    function confirm() {
+        alert("La séance a été rajoutée à la liste des séances à venir");
+    }
+    function cancel() {
+        alert("La séance a été annulée");
+    }
+    </script>
+</html>
+    
